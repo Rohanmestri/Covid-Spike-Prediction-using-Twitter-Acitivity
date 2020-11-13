@@ -7,3 +7,4 @@
 <b> The Results obtained from the cloud server after the user sets the radius and presses the button </b>
 <img src="https://github.com/Rohanmestri/Covid-Spike-Prediction-using-Twitter-Acitivity/blob/main/assets/Screenshot_20201108-171935.jpg" height="700"/>
 <br/>
+# Covid_Risk_Quantification
