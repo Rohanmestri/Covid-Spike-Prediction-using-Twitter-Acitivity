@@ -1,0 +1,18 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 1 files
+Detected 0 issues that require attention
+--------------------------------------------------------------------------------
+================================================================================
+Detailed log follows:
+
+================================================================================
+--------------------------------------------------------------------------------
+Processing file 'train.py'
+ outputting to 'train_new.py'
+--------------------------------------------------------------------------------
+
+83:16: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+84:16: INFO: Renamed 'tf.tables_initializer' to 'tf.compat.v1.tables_initializer'
+--------------------------------------------------------------------------------
+

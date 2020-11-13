@@ -3,6 +3,7 @@ tweepy
 nltk==3.4.5
 pandas==1.0.1
 numpy==1.17.2
-keras=2.3.1
+keras==2.3.1
 sklearn==0.21.3
-json=2.0.9
+json==2.0.9
+tensorflow==2.0.0
