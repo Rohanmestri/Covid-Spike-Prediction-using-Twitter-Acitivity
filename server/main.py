@@ -68,6 +68,10 @@ def get_coordinates():
     # Enter the code to process the data
     # Run Classifier
     
+    for tweet in tweets:
+          tweet['full_text']
+    
+    
     tweet = {
        'number_of_tweets':len(tweets),
     }
