@@ -23,19 +23,15 @@ app = Flask(__name__)
 
 
 
-
-################# CONFIDENTIAL INFORMATION ################################
-################# DO NOT SHARE OR REPLICATE ###############################
-
 # defining the Twitter API keys for the application. Misuse of this information
 # may lead to Twitter Account Suspension.
 def authorize_tweepy():
-    access_token = "1316596554019606528-jQFT42MywGGywBCV3zRG04meWY7Djb"
-    access_token_secret = "gQhey9w6PG21CFwDZ2fnr8Loc9VAvQkPCzv9Xuv312vv9"
+    access_token = "<Enter Token>"
+    access_token_secret = "<Enter Token Secret>"
 
     twitter_app_auth = {
-        'consumer_key': 'D8dNIYJYmKnYAEtmz3WKxg3Oq',
-        'consumer_secret': 'lTh6qHCqds1bIKBBn9WtGeqxpLyKsIjKz4FAO1SGETMnVmkVbZ'
+        'consumer_key': '<Enter Consumer Key>',
+        'consumer_secret': '<Enter Consumer Secret>'
     }
 
     auth = tweepy.OAuthHandler(twitter_app_auth['consumer_key'], twitter_app_auth['consumer_secret'])
